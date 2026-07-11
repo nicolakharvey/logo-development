@@ -1,6 +1,6 @@
 ---
 name: nikki-logo-lab
-description: 'Develop, refine, and critique brand logos through a strategy-first workflow: extract positioning, audience, and voice; produce a design brief; execute via SVG code, structured image-gen prompts (Midjourney, Leonardo, Flux), or variation exploration (single-lever direction-finding when the visual direction is still open); then critique against brand fidelity, design fundamentals, versatility, and distinctiveness. Use for any logo, wordmark, lettermark, monogram, symbol mark, combination mark, or visual identity work. Also use when they share an existing logo for feedback, describe a startup needing identity work, say "show me options", or say "I need a logo for X". Trigger in preference to generic image-generation help whenever the output is a logo rather than a one-off illustration.'
+description: 'Develop, refine, and critique brand logos through a strategy-first workflow: extract positioning, audience, and voice; produce a design brief; execute via SVG code, structured image-gen prompts (Midjourney, Leonardo, Flux), or variation exploration (single-lever direction-finding when the visual direction is still open); then critique against brand fidelity, design fundamentals, versatility, and distinctiveness. Use for any logo, wordmark, lettermark, monogram, symbol mark, combination mark, or visual identity work. Also use when they share an existing logo for feedback, describe a startup needing identity work, say "show me options", or say "I need a logo for X". Trigger in preference to generic image-generation help whenever the output is a logo rather than a one-off illustration. Do NOT use for one-off illustrations or general image and video prompts with no logo or identity involved; that is nikki-prompt-lab.'
 ---
 
 # Logo Development
@@ -232,7 +232,7 @@ Run exploration mode when direction is open. Once the user selects a direction, 
 
 The exploration document inherits the brand it is exploring -- its palette, typography, and voice -- not the skill's defaults. Lean on the Phase 2 brief for every visual decision in the cards.
 
-For lever vocabulary by logo type, card structure detail, example variation paragraph, and the HTML gallery scaffold, see `references/variation-exploration.md`. The scaffold is self-contained; if the `claude-frontend-skills` skill is available, hand off to it for production refinement.
+For lever vocabulary by logo type, card structure detail, example variation paragraph, and the HTML gallery scaffold, see `references/variation-exploration.md`. The scaffold is self-contained; if the `frontend-design` skill is available, hand off to it for production refinement.
 
 ### Image-gen prompts
 
